@@ -1,0 +1,26 @@
+{
+	"geode": "4.9.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "jarvisdevil.mario_tomato",
+	"name": "Mario Tomato",
+	"version": "v1.0.0",
+	"developer": "jarvisdevil",
+	"description": "IT IS ME, MARIO TOMATO!",
+	"dependencies": {
+		"geode.node-ids": ">=v1.20.1",
+		"prevter.imageplus": ">=v1.0.3"
+	},
+	"resources": {
+		"files": [
+			"resources/*.gif",
+			"resources/*.mp3"
+		]
+	},
+	"tags": ["universal", "joke"],
+	"links": {"community": "https://dsc.gg/devlin", "homepage": "https://jarvisdevil.com/?source=mariotomato_geode"}
+}
