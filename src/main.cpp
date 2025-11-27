@@ -20,7 +20,6 @@ void tomatoBG(CCNode* parent, const std::string& name) {
 	// thank me geode for not being stupid enough to break everything. im so smart
 	auto parentID = bg->getParent()->getID();
 	auto parentID2 = bg->getParent()->getParent()->getID();
-	if (!parentID2) return;
 	if (parentID == "ModItem" || // <-- geode menu
 		parentID == "CustomSongWidget" ||
 		parentID == "main-node" ||
